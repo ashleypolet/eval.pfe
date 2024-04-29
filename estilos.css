@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.navv{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link{
+    color: #CCCCcc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6rem;
+}
+
+.logo img{
+    width: 21rem;
+    padding-top: 3rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+    height: 13.5rem;
+}
+
+.nav-item{
+    margin: 1rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
+.search{
+    width: 16px;
+    height: 16px;
+    fill: white;
+    transform: translate(4.1rem, -3rem);
+}
+
+.accesibilidad{
+    width:16px;
+    height: 16px;
+    fill: white;
+    transform: translate(122rem, -3rem);
+}
+
+
