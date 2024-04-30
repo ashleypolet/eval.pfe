@@ -95,18 +95,40 @@ header{
 .catalogo{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .card{
-    flex-basis: 21%;
     margin: 3rem;
     padding: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
-.catalogo img{
-    max-width: 220%;
+
+.card-descripcion{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
+.card-descripcion h3{
+    font-size: 1.5rem;
+}
+
+.card-descripcion p{
+    font-size: 1.1rem;
+    color:#75758B;
+}
+
+.card-descripcion button{
+    color: #ffffff;
+    background-color: black;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border: none;
+    text-decoration: none;
+}
 
 
 
