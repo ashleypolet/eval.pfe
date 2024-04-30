@@ -192,5 +192,90 @@ header{
     text-decoration: underline;
 }
 
+footer{
+    background-color: black;
+    height: 33.2rem;
+}
 
+.opciones{
+    display: flex;
+    padding: 3.8rem;
+    padding-bottom: 0;
+}
+
+.opciones-link{
+    color: #CCCCcc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+
+.opciones-link:hover{
+    color: #ffffff;
+}
+
+.opciones-item{
+    margin: 1rem;
+}
+
+.opciones-item a{
+    text-decoration: none;
+}
+
+.parrafo-footer{
+    display: flex;
+    padding: 3.8rem;
+    padding-top: 1rem;
+}
+
+.footer-link{
+    color: #CCCCcc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+
+.footer-link:hover{
+    color: #ffffff;
+}
+
+.footer-item a{
+    text-decoration: none;
+}
+
+.footer-item{
+    margin: 1rem;
+}
+
+.icons{
+    display: flex;
+    padding-left: 4.4rem;
+    padding-top: 1rem;
+}
+
+.icon{
+    fill: #CCCCcc;
+
+}
+
+
+.logos{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0.7rem;
+    background-color: #252525;
+}
+
+.logos:hover{
+    background-color: red;
+}
+
+.parrafo-ultimo{
+    color: #CCCCcc;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 4.4rem;
+    padding-right: 76rem;
+    padding-top:0.5rem
+}
 
