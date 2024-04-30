@@ -22,7 +22,7 @@ html {
 
 .logo img{
     width: 21rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .logo{
@@ -33,7 +33,7 @@ html {
 
 header{
     background-color: black;
-    height: 13.5rem;
+    height: 11.8rem;
 }
 
 .nav-item{
@@ -57,5 +57,56 @@ header{
     fill: white;
     transform: translate(122rem, -3rem);
 }
+
+.subtitulo{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.imagen-main{
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor-texto{
+    text-align: center;
+    padding-top: 4rem;
+    padding-left: 28rem;
+    padding-right: 28rem;
+}
+
+.titulo {
+   font-size: 2.5rem;
+   font-family:  Helvetica Neue LT Std, system-ui, sans-serif;
+   position: absolute;
+   left: 8%;
+   top: 36%;
+   color: #ffffff;
+}
+
+.catalogo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 21%;
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.catalogo img{
+    max-width: 220%;
+}
+
+
 
 
