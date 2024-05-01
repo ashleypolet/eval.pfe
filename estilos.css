@@ -49,17 +49,33 @@ header{
 }
 
 .search{
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     fill: white;
-    transform: translate(4.1rem, -3rem);
 }
+
+.logos-search{
+    background-color: black;
+    border: none;
+    transform: translate(4.4rem, -3rem);
+    position: absolute;
+}
+
+.logos-search:hover{
+    height: 45px;
+    width: 45px;
+    background-color: #5A5A5A;
+    border-radius: 50%;
+    transform: translate(3.4rem, -4.4rem);
+    
+}
+
 
 .accesibilidad{
     width:16px;
     height: 16px;
     fill: white;
-    transform: translate(122rem, -3rem);
+    transform: translate(120rem, -3rem);
 }
 
 .subtitulo{
@@ -257,17 +273,32 @@ footer{
 }
 
 
-.logos{
+.logos-play{
     display: block;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin: 0.7rem;
     background-color: #252525;
+    border: none;
 }
 
-.logos:hover{
+.logos-twitter{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0.7rem;
+    background-color: #252525;
+    border: none;
+}
+
+.logos-play:hover{
     background-color: red;
+}
+
+.logos-twitter:hover{
+    background-color: #56ABF2;
 }
 
 .parrafo-ultimo{
@@ -279,3 +310,10 @@ footer{
     padding-top:0.5rem
 }
 
+.chile{
+    color: #CCCCcc;
+}
+
+.ultimo{
+    display: flex;
+}
